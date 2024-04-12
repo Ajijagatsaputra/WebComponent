@@ -1,5 +1,5 @@
 import '../data/noteData.js';
-import { getNotes, addNote, deleteNote } from './data/noteData.js'; // Import necessary functions from noteData.js
+import { getNotes, addNote, deleteNote } from '../data/noteData.js';
 
 function displayNotes() {
     const noteList = document.getElementById("noteList");
