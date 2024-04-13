@@ -25,12 +25,12 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    width: 90%; /* Menggunakan persentase untuk responsifitas */
-    max-width: 600px; /* Maksimum lebar untuk menjaga keleganan pembacaan */
+    width: 90%;
+    max-width: 600px;
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr;
-    margin: 0 auto; /* Membuat margin atas dan bawah menjadi 0, dan margin kiri dan kanan menjadi otomatis untuk memusatkan */
+    margin: 0 auto;
 }
 
 .input-card {
@@ -66,7 +66,7 @@ input[type="text"] {
 }
 
 button[type="submit"] {
-    font-family: 'Quicksand', sans-serif; /* Fixed typo here */
+    font-family: 'Quicksand', sans-serif;
     padding: 12px 24px;
     background-color: #007bff;
     color: #fff;
@@ -82,16 +82,15 @@ button[type="submit"]:hover {
 
 .card {
     max-width: 800px;
-    margin: 50px; 
+    margin: 50px auto;
     display: grid;
     gap: 50px;
     padding: 20px;
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0;
     border: 1px solid #ddd;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-
 
 #noteList {
     margin-top: 20px;
@@ -132,4 +131,16 @@ button[type="submit"]:hover {
 
 .delete-button:hover {
     background-color: #c82333;
+}
+
+footer {
+    background-color: #959493;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position: fixed; /* agar footer selalu di bagian bawah layar */
 }
