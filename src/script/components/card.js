@@ -10,7 +10,7 @@ class NoteCard extends HTMLElement {
                     <input type="text" id="description" required/>
                     
                     <div class="button-submit">
-                        <button type="submit">Tambah</button>
+                        <button type="submit">Tambahkan</button>
                     </div>
                 </form>
             </div>
