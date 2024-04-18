@@ -18,7 +18,7 @@ class Footer extends HTMLElement {
                 }
             </style>
             <footer>
-                <p><slot>Note Apps</slot></p>
+                <p><slot>NoteApps &copy; 2024</slot></p>
             </footer>`;
     }
 }
